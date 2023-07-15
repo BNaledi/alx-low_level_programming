@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- *Program that prints the size of various data types on the computer it is compiled and run on.
+ *Prints the size of various data types on computer it is compiled &run on.
  *
  * Return: Always 0 (Success)
  */
