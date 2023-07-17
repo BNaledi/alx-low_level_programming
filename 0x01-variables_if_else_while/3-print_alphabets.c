@@ -12,11 +12,14 @@ int main(void)
 {
 	int c;
 
-	do {
+	for (c = 65; c <= 90; c++)
+	{
 		putchar(c);
-		c++;
-	} while ((c = 65, c <= 90) && (c = 97, c <= 122));
-
+	}
+	for (c = 97; c <= 122; c++)
+	{
+		putchar(c);
+	}
 	putchar('\n');
 	return (0);
 }
