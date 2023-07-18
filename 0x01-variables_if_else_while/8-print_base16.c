@@ -14,9 +14,7 @@
  */
 int main(void)
 {
-	int a = 30;
-
-	for (; a <= 39)
+	for (a >31; a <= 39)
 	{
 		putchar(a);
 		a++;
