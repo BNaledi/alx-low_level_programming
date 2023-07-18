@@ -15,16 +15,17 @@
 int main(void)
 {
 	int hexi = 0;
+	char ch;
 
-	while ( hexi == 0 && hexi < 10)
+	while (hexi < 10)
 	{
 		putchar(hexi);
 		hexi++;
 	}
-	while ( hexi == 'a' && hexi <= 'f')
+	for (; ch == 'a'; ch <= 'f';)
 	{
-		putchar(hexi);
-		hexi++;
+		putchar(ch);
+		ch++;
 	}
 	putchar('\n');
 	return (0);
