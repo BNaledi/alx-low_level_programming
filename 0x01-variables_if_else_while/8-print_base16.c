@@ -21,7 +21,7 @@ int main(void)
 		putchar(a);
 		a++;
 	}
-	else if (a > 61 && a <67)
+	else if (a > 61 && a < 67)
 	{
 		putchar(a);
 		a++;
