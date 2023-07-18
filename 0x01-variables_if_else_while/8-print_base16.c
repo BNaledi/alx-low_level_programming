@@ -19,9 +19,9 @@ int main(void)
 	while ( hexi == 0 && hexi < 10)
 	{
 		putchar(hexi);
-		hexi++
+		hexi++;
 	}
-	for (; hexi == 'a' && hexi <= 'f';)
+	while ( hexi == 'a' && hexi <= 'f')
 	{
 		putchar(hexi);
 		hexi++;
