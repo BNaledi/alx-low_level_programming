@@ -14,11 +14,11 @@
  */
 int main(void)
 {
-	for (a >31; a <= 39; a++)
+	for (a > 48; a <= 57; a++)
 	{
 		putchar(a);
 	}
-	for (a > 61; a < 67; a++)
+	for (a > 97; a < 102; a++)
 	{
 		putchar(a);
 	}
