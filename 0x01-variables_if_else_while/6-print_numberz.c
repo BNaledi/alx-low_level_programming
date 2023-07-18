@@ -17,10 +17,9 @@ int main(void)
 {
 	int a = 0;
 
-	while (a <= 9)
+	while (a <= 9; a++)
 	{
 		putchar(a);
-		a++;
 	}
 	putchar('\n');
 	return (0);
