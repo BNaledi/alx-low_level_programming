@@ -16,7 +16,7 @@ int main(void)
 {
 	int hexi;
 
-	for (; hexi == 0 && hexi < 10;)
+	for ( hexi == 0 && hexi < 10)
 	{
 		putchar(hexi);
 		hexi++;
