@@ -20,7 +20,6 @@ int main(void)
 	for (; a <= 9; a++)
 	{
 		putchar(a);
-		a++;
 	}
 	putchar('\n');
 	return (0);
