@@ -14,15 +14,13 @@
  */
 int main(void)
 {
-	for (a >31; a <= 39)
+	for (a >31; a <= 39; a++)
 	{
 		putchar(a);
-		a++;
 	}
-	for (a > 61; a < 67)
+	for (a > 61; a < 67; a++)
 	{
 		putchar(a);
-		a++;
 	}
 	putchar('\n');
 	return (0);
