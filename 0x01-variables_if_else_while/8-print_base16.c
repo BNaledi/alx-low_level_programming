@@ -16,12 +16,12 @@ int main(void)
 {
 	int a = 30;
 
-	if (a <= 39)
+	for (; a <= 39)
 	{
 		putchar(a);
 		a++;
 	}
-	else if (a > 61 && a < 67)
+	for (a > 61; a < 67)
 	{
 		putchar(a);
 		a++;
