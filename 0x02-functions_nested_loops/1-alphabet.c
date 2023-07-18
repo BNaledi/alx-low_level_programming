@@ -1,11 +1,11 @@
-#include "main.h" 
+#include "main.h"
 
 /**
  * main - check the code
  *
  * Return: Always 0.
  */
-int void print_alphabet(void)
+void print_alphabet(void)
 {
 	int a = 37;
 
