@@ -18,6 +18,5 @@ int main(void)
 		putchar(string[a]);
 		a++;
 	}
-	
 	return (0);
 }
