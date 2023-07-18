@@ -14,17 +14,17 @@
  */
 int main(void)
 {
-	int a;
+	int hexi;
 
-	for (a => 48; a < 58)
+	for (; hexi == 0 && hexi < 10;)
 	{
-		putchar(a);
-		a++;
+		putchar(hexi);
+		hexi++;
 	}
-	for (a > 97; a < 103)
+	for (; hexi > 'a' && hexi <= 'f';)
 	{
-		putchar(a);
-		a++;
+		putchar(hexi);
+		hexi++;
 	}
 	putchar('\n');
 	return (0);
