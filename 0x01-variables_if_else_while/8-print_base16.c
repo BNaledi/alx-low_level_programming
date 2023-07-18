@@ -14,7 +14,7 @@
  */
 int main(void)
 {
-	int h = 47;
+	int h = 48;
 	char ch;
 
 	while (h <= 57)
@@ -22,7 +22,7 @@ int main(void)
 		putchar(h);
 		h++;
 	}
-	for (; ch == 'a'; ch <= 'f';)
+	for (ch = 'a'; ch <= 'f';)
 	{
 		putchar(ch);
 		ch++;
