@@ -17,7 +17,7 @@ int main(void)
 	int h = 47;
 	char ch;
 
-	for (h <= 57)
+	while (h <= 57)
 	{
 		putchar(h);
 		h++;
