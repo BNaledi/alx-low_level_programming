@@ -14,13 +14,13 @@
  */
 int main(void)
 {
-	int hexi = 0;
+	int h = 47;
 	char ch;
 
-	while (hexi < 10)
+	for (h <= 57)
 	{
-		putchar(hexi);
-		hexi++;
+		putchar(h);
+		h++;
 	}
 	for (; ch == 'a'; ch <= 'f';)
 	{
