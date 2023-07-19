@@ -11,7 +11,7 @@ int _islower(int c)
 {
 	int a = 97;
 
-	if ( a =< 122)
+	while ( a =< 122)
 	{
 		_putchar(a);
 		a++;
