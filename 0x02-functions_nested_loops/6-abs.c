@@ -11,7 +11,7 @@
  * if n is greater than, equal to zero,print n
  * if n is less than zero, print abs(n).
  */
-int _abs(int)
+int _abs(int n)
 {
 	int n;
 
