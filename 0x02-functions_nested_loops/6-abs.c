@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _abs - prototype function
+ * _abs - prototype function
  *
  * Prints the absolute value of an integer.
  *
