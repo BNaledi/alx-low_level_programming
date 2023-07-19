@@ -14,15 +14,16 @@ int _islower(int c)
 		_putchar(c);
 		c++;
 		return (1);
+		_putchar('\n');
 	}
 	else if ( c > 64 && c <= 90 )
 	{
 		_putchar(c);
 		c++;
+		_putchar('\n');
 	}
 	else
 	{
 		return (0);
 	}
-	_putchar('\n');
 }
