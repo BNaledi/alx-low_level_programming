@@ -9,13 +9,17 @@
  */
 int _islower(int c)
 {
-	int c;
+	int c = 97;
 
-	for (;c = 97 ; c =< 122; c++)
+	if ( c =< 122)
 	{
 		_putchar(c);
+		c++;
 		return (1);
 	}
+	else
+	{
+		return (0);
+	}
 	_putchar('\n');
-	retun (0);
 }
