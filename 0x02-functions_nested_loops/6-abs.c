@@ -15,7 +15,7 @@ int _abs(int n)
 {
 	if (n < 0)
 	{
-		abs(n);
+		_abs(n);
 	}
 	else if (n == 0)
 	{
