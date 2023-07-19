@@ -22,6 +22,5 @@ int _islower(int c)
 		c++;
 		_putchar('\n');
 	}
-	else
-		return (0);
+	return (0);
 }
