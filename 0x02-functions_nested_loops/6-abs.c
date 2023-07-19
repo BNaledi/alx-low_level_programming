@@ -14,16 +14,10 @@ int _abs(int n)
 {
 	if (n < 0)
 	{
-		imaxabs(n);
-		printf("%jd", n);
+		_putchar(n)
 	}
-	else if (n == 0)
+	else
 	{
-		_putchar('0');
+		n = -n;
 	}
-	else if (n > 0)
-	{
-		_putchar(n);
-	}
-	return (0);
 }
