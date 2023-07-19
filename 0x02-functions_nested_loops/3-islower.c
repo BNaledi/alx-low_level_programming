@@ -3,10 +3,9 @@
 /**
  * _islower - prototype function
  *
- * Checks if the given character integer int c is
- * lowercase or not, using ASCII values.
+ * Checks if the given character is lowercase or not, using ASCII values.
  *
- * 'c' The character that is checked.
+ * '@c' The character that is checked.
  *
  * Return: 1 if c is lowercase, 0 otherwise.
  */
