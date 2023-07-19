@@ -4,11 +4,9 @@
  * _islower - prototype function
  *
  * Checks if the given character is lowercase or not, using ASCII values.
- * 
- * @param c is ASCII value character that is checked.
- * 
- * Return: 1 if c is lowercase, 0 otherwise.
  *
+ * c: is ASCII value/ character that is checked.
+ * Return: 1 if c is lowercase, 0 otherwise.
  */
 int _islower(int c)
 {
