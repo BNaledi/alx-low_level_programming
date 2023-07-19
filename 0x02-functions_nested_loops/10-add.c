@@ -2,7 +2,7 @@
 
 /**
  * add - prototype function.
- * 
+ *
  * Adds two integers and returns the result.
  *
  * @a: 1st integer.
