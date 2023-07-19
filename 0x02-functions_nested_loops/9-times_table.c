@@ -14,9 +14,13 @@ void times_table(void)
 
 	for (count = 0; count <= 10; count++)
 	{
-		_putchar('0' + (a * count));
-		_putchar(',');
-		_putchar(' ');
+		do
+		{
+			_putchar('0' + (a * count));
+			_putchar(',');
+			_putchar(' ');
+		}
+		while (a < 10)
 	}
 	_putchar('\n');
 }
