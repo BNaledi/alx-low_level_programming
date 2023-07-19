@@ -4,13 +4,13 @@
  * Prints the last digit of a number.
  *
  * @n: Integer number that is checked.
- * Return: n
+ * Return: m, value of last digit.
  */
 int print_last_digit(int n)
 {
 	int m = n % 10;
 	{
-		_putchar(m);
+		write(1, m, 4);
 	}
 
 	return (m);
