@@ -9,12 +9,12 @@
  */
 int _islower(int c)
 {
-	int c = 97;
+	int a = 97;
 
-	if ( c =< 122)
+	if ( a =< 122)
 	{
-		_putchar(c);
-		c++;
+		_putchar(a);
+		a++;
 		return (1);
 	}
 	else
