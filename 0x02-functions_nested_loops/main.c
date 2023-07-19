@@ -8,9 +8,11 @@
  *
  * main.c file - to test my prototypes saved in main.h.
  *
+ * prototypes listed in main.h
+ *
  * Return: Always 0.
  */
-int main(void)
+int _islower(int c)
 {
     print_alphabet_x10();
     return (0);
