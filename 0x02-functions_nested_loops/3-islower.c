@@ -3,13 +3,13 @@
 /**
  * _islower - prototype function
  *
- * _islower function checks whether 
- * int c is lowercase character using ASCII values/.
+ * _islower function checks whether
+ * int c is lowercase character using ASCII values.
  *
  * Returns 1 if c is lowercase.
  * Return 0 otherwise.
  */
-int _islower(int c)
+int _islower(int c) /*_islower function checks whether int c is lowercase character using ASCII values.*/
 {
 	if (c >= 97 && c <= 122)
 	{
