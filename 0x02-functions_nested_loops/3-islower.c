@@ -23,7 +23,5 @@ int _islower(int c)
 		_putchar('\n');
 	}
 	else
-	{
 		return (0);
-	}
 }
