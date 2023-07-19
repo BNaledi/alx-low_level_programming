@@ -9,14 +9,14 @@
  */
 int _islower(int c)
 {
-    if (c >= 97 && c <= 122) // Check for lowercase (ASCII values 97 to 122)
+    if (c >= 97 && c <= 122)
     {
-        return 1; // True, character is lowercase
+        return 1;
     }
-    else if (c >= 65 && c <= 90) // Check for uppercase (ASCII values 65 to 90)
+    else if (c >= 65 && c <= 90)
     {
-        return 0; // False, character is uppercase
+        return 0;
     }
     _putchar('\n');
-    return 0; // False, character is not a letter
+    return 0;
 }
