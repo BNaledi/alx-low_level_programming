@@ -4,12 +4,11 @@
  * _islower - prototype function
  *
  * _islower function checks whether
- * int c is lowercase character using ASCII values.
- *
- * Returns 1 if c is lowercase.
- * Return 0 otherwise.
+ * @param c is ASCII value character that is checked.
+ * Return: 1 if c is lowercase.
+ * Return: 0 otherwise.
  */
-int _islower(int c) /*_islower fn checks if ASCII values for int c are lowercase.*/
+int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
 	{
