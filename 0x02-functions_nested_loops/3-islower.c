@@ -5,7 +5,7 @@
  *
  * Checks if the given character is lowercase or not, using ASCII values.
  *
- * @c is The character that is checked.
+ * @c: The int character that is checked.
  *
  * Return: 1 if c is lowercase, 0 otherwise.
  */
