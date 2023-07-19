@@ -3,10 +3,7 @@
 /**
  * print_alphabet - prototype function
  *
- *Write a function that prints the alphabet,
- in lowercase,
- followed by a new line.
- May only use _putchar, twice.
+ *Prints the lowercase alphabet,using only _putchar, twice.
  *
  * Return: Always 0.
  */
