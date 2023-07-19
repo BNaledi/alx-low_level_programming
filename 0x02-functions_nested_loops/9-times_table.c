@@ -20,7 +20,7 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 		}
-		while (a < 10)
+		while (a < 10);
 	}
 	_putchar('\n');
 }
