@@ -7,15 +7,18 @@
  * Returns 1 if c is lowercase.
  * Return 0 otherwise.
  */
-int _islower()
+int _islower(int c)
 {
-	int a = 97;
-
-	if ( a <= 122)
+	if ( c > 96 && c <=122)
 	{
-		_putchar(a);
-		a++;
+		_putchar(c);
+		c++;
 		return (1);
+	}
+	else if ( c > 64 && c <= 90 )
+	{
+		_putchar(c);
+		c++;
 	}
 	else
 	{
