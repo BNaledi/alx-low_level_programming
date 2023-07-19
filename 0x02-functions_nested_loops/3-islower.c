@@ -9,7 +9,7 @@
  * Returns 1 if c is lowercase.
  * Return 0 otherwise.
  */
-int _islower(int c) /*_islower function checks whether int c is lowercase character using ASCII values.*/
+int _islower(int c) /*_islower fn checks if ASCII values for int c are lowercase.*/
 {
 	if (c >= 97 && c <= 122)
 	{
