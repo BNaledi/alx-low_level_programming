@@ -21,6 +21,7 @@ void times_table(void)
 			_putchar(' ');
 		}
 		while (a < 10);
+		a++;
 	}
 	_putchar('\n');
 }
