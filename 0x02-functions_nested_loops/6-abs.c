@@ -24,5 +24,5 @@ int _abs(int n)
 	{
 		n = -n;
 	}
-	return;
+	return (0);
 }
