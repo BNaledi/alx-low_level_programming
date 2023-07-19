@@ -5,7 +5,7 @@
  *
  * Checks if the given character is lowercase or not, using ASCII values.
  *
- * @param 'c' The character that is checked.
+ * c The character that is checked.
  * Return: 1 if c is lowercase, 0 otherwise.
  */
 int _islower(int c)
