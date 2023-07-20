@@ -3,7 +3,7 @@
 
 /**
  * print_to_98 - prototype function.
- *
+ * 
  * Prints all natural numbers from n to 98, followed by a new line.
  *
  * Numbers must be separated by a comma, followed by a space.
