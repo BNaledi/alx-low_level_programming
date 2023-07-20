@@ -2,7 +2,7 @@
 
 /**
  * print_to_98 - prototype function.
- * 
+ *
  * Prints all natural numbers from n to 98, followed by a new line.
  *
  * Numbers must be separated by a comma, followed by a space.
@@ -13,9 +13,10 @@
  */
 void print_to_98(int n)
 {
-	for (;n <= 98; n++)
+	for (; n <= 98; n++)
 	{
-		_putchar('0' + n);
+		_putchar('0' + (n / 10));
+		_putchar('0' + (n % 10));
 		_putchar(',');
 		_putchar(' ');
 	}
