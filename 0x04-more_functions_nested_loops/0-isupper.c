@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * is_upper - prototype function.
+ * _isupper - prototype function.
  *
  * Checks for uppercase character.
  *
- * @c: The character that needs to be checked
+ * @c: The character that needs to be checked.
+ *
  * Return: Always 0.
  */
 int _isupper(int c)
