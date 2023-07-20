@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * is_upper - prototype function.
@@ -12,12 +13,15 @@ int _isupper(int c)
 {
 	char ch;
 
+	printf("%i before for loop", c);
 	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
-		if (ch == c)
+		printf("I am in for loop\n");
+		if(ch == c)
 		{
 			return (1);
 		}
 	}
+	printf("I am outside for loop\n");
 	return (0);
 }
