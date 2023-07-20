@@ -27,7 +27,6 @@ void print_to_98(int n)
 		_putchar(',');
 		_putchar(' ');
 	}
-	else
 	_putchar(57);
 	_putchar(56);
 	_putchar('\n');
