@@ -21,7 +21,7 @@ void print_to_98(int n)
 		_putchar(' ');
 		n++;
 	}
-	else (n > 98)
+	else if (n > 98)
 	{
 		_putchar('0' + (n / 10));
 		_putchar('0' + (n % 10));
