@@ -22,12 +22,12 @@ void more_numbers(void)
 			{
 				a = 1;
 			}
-			_putchar('0' + a);
+			putchar('0' + a);
 			if (c > 9)
 			{
-				_putchar('0' + c - 10);
+				putchar('0' + c - 10);
 			}
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 }
