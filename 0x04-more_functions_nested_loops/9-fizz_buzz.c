@@ -45,7 +45,8 @@ int main(void)
 		n++;
 	}
 	else
-	{n--;
+	{
+		n--;
 	}
 
 	printf("Buzz");
