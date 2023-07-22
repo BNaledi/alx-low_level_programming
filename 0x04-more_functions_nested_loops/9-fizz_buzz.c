@@ -15,7 +15,7 @@
  */
 int main(void)
 {
-	int n = 0;
+	int n = 1;
 
 	while (n != 100)
 	{
