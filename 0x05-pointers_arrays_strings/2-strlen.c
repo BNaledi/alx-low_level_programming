@@ -5,7 +5,7 @@
  *
  * Returns the length of a string.
  *
- * @s: the pointer to string characters.
+ * @str: the pointer to string characters.
  *
  * Return: Always 0.
  */
