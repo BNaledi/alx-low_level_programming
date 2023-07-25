@@ -18,12 +18,12 @@ void rev_string(char *s)
 	{
 		len++;
 		s++;
-
-		for (swap = len; swap > 0; swap--)
-		{
-			_putchar(*s);
-			s--;
-		}
+	}
+	s--;
+	for (swap = len; swap > 0; swap--)
+	{
+		_putchar(*s);
+		s--;
 	}
 	_putchar('\n');
 }
