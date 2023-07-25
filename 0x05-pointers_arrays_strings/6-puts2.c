@@ -16,18 +16,13 @@ void puts2(char *str)
 {
 	int len = strlen(str);
 
-	if (len % 2 != 0)
+	for ( len = 0; len % 2 != 0; len++)
 	{
 		while (*str != '\0')
 		{
 		_putchar(*str);
 		str++;
 		}
-		len++;
 		_putchar('\n');
-	}
-	else
-	{
-		_putchar(*str);
 	}
 }
