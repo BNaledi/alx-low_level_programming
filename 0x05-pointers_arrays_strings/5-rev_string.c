@@ -24,6 +24,5 @@ void rev_string(char *s)
 		len++;
 		s++;
 	}
-	s--;
 	_putchar('\n');
 }
