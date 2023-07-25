@@ -14,13 +14,13 @@ void rev_string(char *s)
 	int len = 0;
 	int swap;
 
-	for (swap = len; swap > 0; swap--)
-        {
-                _putchar(*s);
-                s--;
-        }
 	while (*s != '\0')
 	{
+		for (swap = len; swap > 0; swap--)
+		{
+			_putchar(*s);
+			s--;
+		}
 		len++;
 		s++;
 	}
