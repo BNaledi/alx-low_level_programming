@@ -23,6 +23,7 @@ void puts2(char *str)
 		_putchar(*str);
 		str++;
 		}
+		len++;
 		_putchar('\n');
 	}
 	else
