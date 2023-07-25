@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 
 /**
  * rev_string - prototype function
@@ -11,19 +13,14 @@
  */
 void rev_string(char *s)
 {
-	int len = 0;
-	int swap;
+	int len = strlen(s);
+	int lenSwap = 0;
 
-	while (*s != '\0')
+	for (; lenSwap < (len / 2); lenSwap++)
 	{
-		len++;
-		s++;
+		char temp = s[lenSwap];
+
+		s[lenSwap] = s[len - 1 - lenSwap];
+		s[len - 1 - lenSwap] = temp;
 	}
-	s--;
-	for (swap = len; swap > 0; swap--)
-	{
-		_putchar(*s);
-		s--;
-	}
-	_putchar('\n');
 }
