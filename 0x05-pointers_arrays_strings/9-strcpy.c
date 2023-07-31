@@ -11,13 +11,13 @@
  * @dest: the string to which we are copying.
  * @src: the string from which we are copying.
  *
- * Return value: the pointer to dest
+ * Return: the pointer to dest
  */
 char *_strcpy(char *dest, char *src)
 {
 	int len = 0;
 
-	while (*(src + len) != '\0')
+	while (src[len] != '\0')
 	{
 		len++;
 		dest[len] = src[len];
