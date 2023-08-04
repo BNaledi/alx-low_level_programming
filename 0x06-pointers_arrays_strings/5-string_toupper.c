@@ -3,7 +3,8 @@
 /**
  * *string_toupper - prototype function
  *
- * Function that changes all lowercase letters of a string to uppercase.
+ * Function that changes all lowercase letters
+ * of a string to uppercase letters.
  *
  * @a: input value, array name
  *
