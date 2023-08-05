@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * *_strchr - prototype function.
+ * _strchr - prototype function.
  *
- * Function that locates a character in a string.
- * Returns a pointer to the first occurrence of the character
- * c in the string s, or NULL if the character is not found.
+ * Function that gets the length of a prefix substring.
+ * Returns a pointer to the first occurrence of the character c in the
+ * string s, or NULL if the character is not found.
  *
- * @s: input, string containing char c.
- * @c: input, char to be locates.
+ * @s: input, string to be changed.
+ * @c: input, char to located.
  *
- * Return: Always 0 (Success).
+ * Return: Always 0 (Success)
  */
 char *_strchr(char *s, char c)
 {
