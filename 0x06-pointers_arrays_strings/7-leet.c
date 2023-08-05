@@ -14,9 +14,9 @@
  * You are not allowed to use switch
  * You are not allowed to use any ternary operation
  *
- * @g: input value,ca string
+ * @g: input value, a string
  *
- * Return: g, changed string.
+ * Return: g, ecoded/ changed string.
  */
 char *leet(char *g)
 {
@@ -27,7 +27,7 @@ char *leet(char *g)
 
 	for (i = 0; g[i] != '\0'; i++)
 	{
-		for (j = 0; j < 10; j++)
+		for (j = 0; s1[j] != '\0'; j++)
 		{
 			if (g[i] == s1[j])
 			{
