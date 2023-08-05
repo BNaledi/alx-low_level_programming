@@ -3,7 +3,7 @@
 /**
  * *leet - prototype function.
  *
- * Function that encodes a string into 1337.
+ * Function that encodes a string into 1337 'speak'.
  * Letters a and A should be replaced by 4
  * Letters e and E should be replaced by 3
  * Letters o and O should be replaced by 0
@@ -27,7 +27,7 @@ char *leet(char *g)
 
 	for (i = 0; g[i] != '\0'; i++)
 	{
-		for (j = 0; s1[j] != '\0'; j++)
+		for (j = 0; j < 10; j++)
 		{
 			if (g[i] == s1[j])
 			{
