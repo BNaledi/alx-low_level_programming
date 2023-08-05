@@ -14,10 +14,10 @@
  */
 char *cap_string(char *str)
 {
-	int i = 0;
+	int i;
 /* string index */
 
-	while (str[i])
+	for (i = 0; str[i]; i++)
 	{
 		while (!(str[i] >= 'a' && str[i] <= 'z'))
 		{
@@ -40,7 +40,6 @@ char *cap_string(char *str)
 		{
 			str[i] -= 32;
 		}
-		i++;
 	}
 	return (str);
 }
